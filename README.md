@@ -1,16 +1,3 @@
-# ElemChain
-
-[![tests](https://github.com/AlexKaravaev/elemchain/actions/workflows/tests.yml/badge.svg)](https://github.com/AlexKaravaev/elemchain/actions/workflows/tests.yml)
-
-![Alt Text](./media/demo.gif)
-
-Elementary and simple cryptocurrency implemented in Rust.
-
-I started creating it just as simple blockchain example, but ended up in half way of creating own kind of a cryptocurrency.
-
-
-Mostly this project is done to get familiar with Rust language and broaden understanding of how cryptocurrency/blockchain systems do work. So this repo is not even close to such distrtibuted systems as eth, bitcoin etc.
-
 ## What it can and can't do
 
 What it can do:
@@ -34,9 +21,6 @@ Launch ```cargo run``` and then you will see a cli menu. It's kind of a playgrou
 
 It's better to launch 2-3 nodes in separate terminals via ```cargo run``` too to see how they will reach consensus.
 
-## Credits
-
-I've found this code and websites useful:
 * [Simple proof-of-work blockchain written in Rust](https://github.com/thor314/rust-blockchain)
 * Make your own cryptocurrency from scratch
   * [Code](https://github.com/nathan-149/CustomCryptocurrency)
