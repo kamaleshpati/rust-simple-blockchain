@@ -1,12 +1,10 @@
-## What it can and can't do
 
-What it can do:
 * Generate transactions.
 * Mine blocks from transactions.
 * Broadcast new created blocks to the network and check validity of synchronized chains.
 * Generate hashes of the block and check validity of the blocks, so that blockchain becomes immutable.
 
-Things to be done in the future:
+TODO
 
 * Merkle roots instead of just having all txs in the block.
 * No mempool with pending transactions. For now they are only displayed for local node(if this node has done it, then only this node can mine it)
